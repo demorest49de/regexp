@@ -11,6 +11,7 @@ const numbers = [
 // https://regex101.com
 const validRussianMoblileNumberFormat = /^\+?\d{0,1}[\s]?[- (]?\d{0,3}[- )]?[\s]?\d{0,3}[- ]?\d{0,2}[- ]?\d{0,2}/g;
 const validWorldWideEmailFormat = /^\w+[-\.]?\w+@[a-z0-9-]+\.[a-z]{2,}/gmu;
+const validCSSformats = /^(\.(sa|c|sc)ss)$/g;
 
 for (let i = 0; i < numbers.length; i++) {
     const number = numbers[i];
