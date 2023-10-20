@@ -8,7 +8,7 @@ const numbers = [
     '+7 (920) 4194087',
 ];
 
-
+// https://regex101.com
 const validRussianMoblileNumberFormat = /^\+?\d{0,1}[\s]?[- (]?\d{0,3}[- )]?[\s]?\d{0,3}[- ]?\d{0,2}[- ]?\d{0,2}/g;
 const validWorldWideEmailFormat = /^\w+[-\.]?\w+@[a-z0-9-]+\.[a-z]{2,}/gmu;
 
